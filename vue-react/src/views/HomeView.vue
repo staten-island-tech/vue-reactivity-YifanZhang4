@@ -1,7 +1,12 @@
 <script>
 import PokeList from '../components/PokeList.vue'
+import PokeCard from '../components/PokeCard.vue'
+export default {
+  components: PokeList,
+  PokeCard
+}
 </script>
 
 <template>
-<PokeList />
+  <PokeCard v-for="pokemon in PokeList" :key="pokemon" />
 </template>
