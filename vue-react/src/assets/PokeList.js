@@ -1,4 +1,3 @@
-<script>
 const PokeList = [
   {
     id: 1,
@@ -756,18 +755,3 @@ const PokeList = [
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png'
   }
 ]
-
-export default {
-  name: 'PokeList',
-  components: {
-    PokeList: Array,
-    props: {
-      id: Number,
-      name: String,
-      front_sprite: String
-    }
-  }
-}
-</script>
-
-<style scoped></style>
