@@ -1,4 +1,5 @@
 <script>
+import { genPropsAccessExp } from '@vue/shared'
 import PokeCard from '../components/PokeCard.vue'
 export default {
   components: {
@@ -11,241 +12,378 @@ export default {
           id: 1,
           name: 'Bulbasaur',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
+          type: {
+            0: 'Grass',
+            1: 'Poison'
+          }
         },
         {
           id: 2,
           name: 'Ivysaur',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png',
+          type: {
+            0: 'Grass',
+            1: 'Poison'
+          }
         },
         {
           id: 3,
           name: 'Venusaur',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png',
+          type: {
+            0: 'Grass',
+            1: 'Poison'
+          }
         },
         {
           id: 4,
           name: 'Charmander',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png',
+          type: {
+            0: 'Fire'
+          }
         },
         {
           id: 5,
           name: 'Charmeleon',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
+          type: {
+            0: 'Fire'
+          }
         },
         {
           id: 6,
           name: 'Charizard',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png',
+          type: {
+            0: 'Fire',
+            1: 'Flying'
+          }
         },
         {
           id: 7,
           name: 'Squirtle',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png',
+          type: {
+            0: 'Water'
+          }
         },
         {
           id: 8,
           name: 'Wartortle',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png',
+          type: {
+            0: 'Water'
+          }
         },
         {
           id: 9,
           name: 'Blastoise',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png',
+          type: {
+            0: 'Water'
+          }
         },
         {
           id: 10,
           name: 'Caterpie',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png',
+          type: {
+            0: 'Bug'
+          }
         },
         {
           id: 11,
           name: 'Metapod',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png',
+          type: {
+            0: 'Bug'
+          }
         },
         {
           id: 12,
           name: 'Butterfree',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png',
+          type: {
+            0: 'Bug',
+            1: 'Flying'
+          }
         },
         {
           id: 13,
           name: 'Weedle',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png',
+          type: {
+            0: 'Bug',
+            1: 'Poison'
+          }
         },
         {
           id: 14,
           name: 'Kakuna',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png',
+          type: {
+            0: 'Bug',
+            1: 'Poison'
+          }
         },
         {
           id: 15,
           name: 'Beedrill',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png',
+          type: {
+            0: 'Bug',
+            1: 'Poison'
+          }
         },
         {
           id: 16,
           name: 'Pidgey',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png',
+          type: {
+            0: 'Normal',
+            1: 'Flying'
+          }
         },
         {
           id: 17,
           name: 'Pidgeotto',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png',
+          type: {
+            0: 'Normal',
+            1: 'Flying'
+          }
         },
         {
           id: 18,
           name: 'Pidgeot',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png',
+          type: {
+            0: 'Normal',
+            1: 'Flying'
+          }
         },
         {
           id: 19,
           name: 'Rattata',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png',
+          type: {
+            0: 'Normal'
+          }
         },
         {
           id: 20,
           name: 'Raticate',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png',
+          type: {
+            0: 'Normal'
+          }
         },
         {
           id: 21,
           name: 'Spearow',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png',
+          type: {
+            0: 'Normal',
+            1: 'Flying'
+          }
         },
         {
           id: 22,
           name: 'Fearow',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png',
+          type: {
+            0: 'Normal',
+            1: 'Flying'
+          }
         },
         {
           id: 23,
           name: 'Ekans',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png',
+          type: {
+            0: 'Poison'
+          }
         },
         {
           id: 24,
           name: 'Arbok',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png',
+          type: {
+            0: 'Poison'
+          }
         },
         {
           id: 25,
           name: 'Pikachu',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+          type: {
+            0: 'Electric'
+          }
         },
         {
           id: 26,
           name: 'Raichu',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png',
+          type: {
+            0: 'Electric'
+          }
         },
         {
           id: 27,
           name: 'Sandshrew',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png',
+          type: {
+            0: 'Ground'
+          }
         },
         {
           id: 28,
           name: 'Sandslash',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png',
+          type: {
+            0: 'Ground'
+          }
         },
         {
           id: 29,
           name: 'Nidoran♀',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png',
+          type: {
+            0: 'Poison'
+          }
         },
         {
           id: 30,
           name: 'Nidorina',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png',
+          type: {
+            0: 'Poison'
+          }
         },
         {
           id: 31,
           name: 'Nidoqueen',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png',
+          type: {
+            0: 'Poison',
+            1: 'Ground'
+          }
         },
         {
           id: 32,
           name: 'Nidoran♂',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png',
+          type: {
+            0: 'Poison'
+          }
         },
         {
           id: 33,
           name: 'Nidorino',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png',
+          type: {
+            0: 'Poison'
+          }
         },
         {
           id: 34,
           name: 'Nidoking',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png',
+          type: {
+            0: 'Poison',
+            1: 'Ground'
+          }
         },
         {
           id: 35,
           name: 'Clefairy',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png',
+          type: {
+            0: 'Fairy'
+          }
         },
         {
           id: 36,
           name: 'Clefable',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png',
+          type: {
+            0: 'Fairy'
+          }
         },
         {
           id: 37,
           name: 'Vulpix',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png',
+          type: {
+            0: 'Fire'
+          }
         },
         {
           id: 38,
           name: 'Ninetales',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png',
+          type: {
+            0: 'Fire'
+          }
         },
         {
           id: 39,
           name: 'Jigglypuff',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png',
+          type: {
+            0: 'Normal',
+            1: 'Fairy'
+          }
         },
         {
           id: 40,
           name: 'Wigglytuff',
           front_sprite:
-            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png'
+            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png',
+          type: {
+            0: 'Normal',
+            1: 'Fairy'
+          }
         },
         {
           id: 41,
@@ -925,7 +1063,8 @@ export default {
       v-for="pokemon in PokeList"
       :key="pokemon"
       :pokemon="pokemon"
-      name="name"
+      :name="pokemon.name"
+      :front_sprite="pokemon.front_sprite"
     />
   </div>
 </template>
