@@ -3,6 +3,8 @@
     <h2>{{ name }}</h2>
     <img v-bind:src="front_sprite" alt="" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
+    <h2 v-if="got === false">Not Obtained</h2>
+    <h2 v-if="got === true">Obtained</h2>
   </div>
 </template>
 
@@ -12,33 +14,13 @@ export default {
   props: {
     name: String,
     front_sprite: String,
-    type: String
+    type: String,
+    got: Boolean
   }
 }
 </script>
 
 <style scoped>
-.PokeCard {
-  display: flex;
-  flex-direction: column;
-  border-radius: 15px;
-  height: 12rem;
-  width: 12rem;
-  margin: 15px 15px;
-  padding: 25px 15px;
-  background-color: #f2f2f2;  
-  align-items: center;
-}
-h2 {
-  text-align: center;
-  font-size: 1rem;
-  display: block;
-}
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 :root {
   /*Type Colors*/
   --Normal: #a8a77a;
@@ -59,5 +41,34 @@ img {
   --Dark: #705746;
   --Steel: #b7b7ce;
   --Fairy: #d685ad;
+
+  /*TypeScale*/
+  --h1: 2.488rem;
+  --h2: 2.074rem;
+  --h3: 1.728rem;
+  --h4: 1.44rem;
+  --h5: 1.2rem;
+}
+.PokeCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  height: 13rem;
+  width: 13rem;
+  margin: 10px 10px;
+  padding: 15px 15px;
+  background-color: #f2f2f2;
+  align-items: center;
+  border-color: var(--Electric);
+  border-style: solid;
+}
+h2 {
+  text-align: center;
+  font-size: 1rem;
+  display: block;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 </style>

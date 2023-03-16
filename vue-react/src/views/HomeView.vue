@@ -16,7 +16,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 2,
@@ -26,7 +27,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 3,
@@ -36,7 +38,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 4,
@@ -45,7 +48,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 5,
@@ -54,7 +58,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 6,
@@ -64,7 +69,8 @@ export default {
           type: {
             0: 'Fire',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 7,
@@ -73,7 +79,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 8,
@@ -82,7 +89,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 9,
@@ -91,7 +99,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 10,
@@ -100,7 +109,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png',
           type: {
             0: 'Bug'
-          }
+          },
+          got: false
         },
         {
           id: 11,
@@ -109,7 +119,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png',
           type: {
             0: 'Bug'
-          }
+          },
+          got: false
         },
         {
           id: 12,
@@ -119,7 +130,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 13,
@@ -129,7 +141,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 14,
@@ -139,7 +152,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 15,
@@ -149,7 +163,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 16,
@@ -159,7 +174,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 17,
@@ -169,7 +185,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 18,
@@ -179,7 +196,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 19,
@@ -188,7 +206,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 20,
@@ -197,7 +216,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 21,
@@ -207,7 +227,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 22,
@@ -217,7 +238,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 23,
@@ -226,7 +248,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 24,
@@ -235,7 +258,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 25,
@@ -244,7 +268,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
           type: {
             0: 'Electric'
-          }
+          },
+          got: false
         },
         {
           id: 26,
@@ -253,7 +278,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png',
           type: {
             0: 'Electric'
-          }
+          },
+          got: false
         },
         {
           id: 27,
@@ -262,7 +288,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png',
           type: {
             0: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 28,
@@ -271,7 +298,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png',
           type: {
             0: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 29,
@@ -280,7 +308,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 30,
@@ -289,7 +318,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 31,
@@ -299,7 +329,8 @@ export default {
           type: {
             0: 'Poison',
             1: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 32,
@@ -308,7 +339,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 33,
@@ -317,7 +349,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 34,
@@ -327,7 +360,8 @@ export default {
           type: {
             0: 'Poison',
             1: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 35,
@@ -336,7 +370,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png',
           type: {
             0: 'Fairy'
-          }
+          },
+          got: false
         },
         {
           id: 36,
@@ -345,7 +380,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png',
           type: {
             0: 'Fairy'
-          }
+          },
+          got: false
         },
         {
           id: 37,
@@ -354,7 +390,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 38,
@@ -363,7 +400,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 39,
@@ -373,7 +411,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Fairy'
-          }
+          },
+          got: false
         },
         {
           id: 40,
@@ -383,7 +422,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Fairy'
-          }
+          },
+          got: false
         },
         {
           id: 41,
@@ -393,7 +433,8 @@ export default {
           type: {
             0: 'Poison',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 42,
@@ -403,7 +444,8 @@ export default {
           type: {
             0: 'Poison',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 43,
@@ -413,7 +455,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 44,
@@ -423,7 +466,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 45,
@@ -433,7 +477,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 46,
@@ -443,7 +488,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Grass'
-          }
+          },
+          got: false
         },
         {
           id: 47,
@@ -453,7 +499,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Grass'
-          }
+          },
+          got: false
         },
         {
           id: 48,
@@ -463,7 +510,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 49,
@@ -473,7 +521,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 50,
@@ -482,7 +531,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png',
           type: {
             0: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 51,
@@ -491,7 +541,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png',
           type: {
             0: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 52,
@@ -500,7 +551,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 53,
@@ -509,7 +561,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 54,
@@ -518,7 +571,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 55,
@@ -527,7 +581,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 56,
@@ -536,7 +591,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png',
           type: {
             0: 'Fighting'
-          }
+          },
+          got: false
         },
         {
           id: 57,
@@ -545,7 +601,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png',
           type: {
             0: 'Fighting'
-          }
+          },
+          got: false
         },
         {
           id: 58,
@@ -554,7 +611,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 59,
@@ -563,7 +621,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 60,
@@ -572,7 +631,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 61,
@@ -581,7 +641,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 62,
@@ -591,7 +652,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Fighting'
-          }
+          },
+          got: false
         },
         {
           id: 63,
@@ -600,7 +662,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png',
           type: {
             0: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 64,
@@ -609,7 +672,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png',
           type: {
             0: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 65,
@@ -618,7 +682,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png',
           type: {
             0: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 66,
@@ -627,7 +692,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png',
           type: {
             0: 'Fighting'
-          }
+          },
+          got: false
         },
         {
           id: 67,
@@ -636,7 +702,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png',
           type: {
             0: 'Fighting'
-          }
+          },
+          got: false
         },
         {
           id: 68,
@@ -645,7 +712,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png',
           type: {
             0: 'Fighting'
-          }
+          },
+          got: false
         },
         {
           id: 69,
@@ -655,7 +723,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 70,
@@ -665,7 +734,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 71,
@@ -675,7 +745,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 72,
@@ -685,7 +756,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 73,
@@ -695,7 +767,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 74,
@@ -705,7 +778,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 75,
@@ -715,7 +789,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 76,
@@ -725,7 +800,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 77,
@@ -734,7 +810,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 78,
@@ -743,7 +820,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 79,
@@ -753,7 +831,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 80,
@@ -763,7 +842,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 81,
@@ -773,7 +853,8 @@ export default {
           type: {
             0: 'Electric',
             1: 'Steel'
-          }
+          },
+          got: false
         },
         {
           id: 82,
@@ -783,7 +864,8 @@ export default {
           type: {
             0: 'Electric',
             1: 'Steel'
-          }
+          },
+          got: false
         },
         {
           id: 83,
@@ -793,7 +875,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 84,
@@ -803,7 +886,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 85,
@@ -813,7 +897,8 @@ export default {
           type: {
             0: 'Normal',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 86,
@@ -822,7 +907,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 87,
@@ -832,7 +918,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Ice'
-          }
+          },
+          got: false
         },
         {
           id: 88,
@@ -841,7 +928,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 89,
@@ -850,7 +938,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 90,
@@ -859,7 +948,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 91,
@@ -869,7 +959,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Ice'
-          }
+          },
+          got: false
         },
         {
           id: 92,
@@ -879,7 +970,8 @@ export default {
           type: {
             0: 'Ghost',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 93,
@@ -889,7 +981,8 @@ export default {
           type: {
             0: 'Ghost',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 94,
@@ -899,7 +992,8 @@ export default {
           type: {
             0: 'Ghost',
             1: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 95,
@@ -909,7 +1003,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 96,
@@ -918,7 +1013,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png',
           type: {
             0: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 97,
@@ -927,7 +1023,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png',
           type: {
             0: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 98,
@@ -936,7 +1033,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 99,
@@ -945,7 +1043,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 100,
@@ -954,7 +1053,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png',
           type: {
             0: 'Electric'
-          }
+          },
+          got: false
         },
         {
           id: 101,
@@ -963,7 +1063,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png',
           type: {
             0: 'Electric'
-          }
+          },
+          got: false
         },
         {
           id: 102,
@@ -973,7 +1074,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 103,
@@ -983,7 +1085,8 @@ export default {
           type: {
             0: 'Grass',
             1: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 104,
@@ -992,7 +1095,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png',
           type: {
             0: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 105,
@@ -1001,7 +1105,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png',
           type: {
             0: 'Ground'
-          }
+          },
+          got: false
         },
         {
           id: 106,
@@ -1010,7 +1115,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png',
           type: {
             0: 'Fighting'
-          }
+          },
+          got: false
         },
         {
           id: 107,
@@ -1019,7 +1125,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png',
           type: {
             0: 'Fighting'
-          }
+          },
+          got: false
         },
         {
           id: 108,
@@ -1028,7 +1135,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 109,
@@ -1037,7 +1145,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 110,
@@ -1046,7 +1155,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png',
           type: {
             0: 'Poison'
-          }
+          },
+          got: false
         },
         {
           id: 111,
@@ -1056,7 +1166,8 @@ export default {
           type: {
             0: 'Ground',
             1: 'Rock'
-          }
+          },
+          got: false
         },
         {
           id: 112,
@@ -1066,7 +1177,8 @@ export default {
           type: {
             0: 'Ground',
             1: 'Rock'
-          }
+          },
+          got: false
         },
         {
           id: 113,
@@ -1075,7 +1187,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 114,
@@ -1084,7 +1197,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png',
           type: {
             0: 'Grass'
-          }
+          },
+          got: false
         },
         {
           id: 115,
@@ -1093,7 +1207,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 116,
@@ -1102,7 +1217,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 117,
@@ -1111,7 +1227,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 118,
@@ -1120,7 +1237,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 119,
@@ -1129,7 +1247,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 120,
@@ -1138,7 +1257,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 121,
@@ -1148,7 +1268,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 122,
@@ -1158,7 +1279,8 @@ export default {
           type: {
             0: 'Psychic',
             1: 'Fairy'
-          }
+          },
+          got: false
         },
         {
           id: 123,
@@ -1168,7 +1290,8 @@ export default {
           type: {
             0: 'Bug',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 124,
@@ -1178,7 +1301,8 @@ export default {
           type: {
             0: 'Ice',
             1: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 125,
@@ -1187,7 +1311,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png',
           type: {
             0: 'Electric'
-          }
+          },
+          got: false
         },
         {
           id: 126,
@@ -1196,7 +1321,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 127,
@@ -1205,7 +1331,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png',
           type: {
             0: 'Bug'
-          }
+          },
+          got: false
         },
         {
           id: 128,
@@ -1214,7 +1341,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 129,
@@ -1223,7 +1351,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 130,
@@ -1233,7 +1362,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 131,
@@ -1243,7 +1373,8 @@ export default {
           type: {
             0: 'Water',
             1: 'Ice'
-          }
+          },
+          got: false
         },
         {
           id: 132,
@@ -1252,7 +1383,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 133,
@@ -1261,7 +1393,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 134,
@@ -1270,7 +1403,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png',
           type: {
             0: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 135,
@@ -1279,7 +1413,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png',
           type: {
             0: 'Electric'
-          }
+          },
+          got: false
         },
         {
           id: 136,
@@ -1288,7 +1423,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png',
           type: {
             0: 'Fire'
-          }
+          },
+          got: false
         },
         {
           id: 137,
@@ -1297,7 +1433,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 138,
@@ -1307,7 +1444,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 139,
@@ -1317,7 +1455,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 140,
@@ -1327,7 +1466,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 141,
@@ -1337,7 +1477,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Water'
-          }
+          },
+          got: false
         },
         {
           id: 142,
@@ -1347,7 +1488,8 @@ export default {
           type: {
             0: 'Rock',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 143,
@@ -1356,7 +1498,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png',
           type: {
             0: 'Normal'
-          }
+          },
+          got: false
         },
         {
           id: 144,
@@ -1366,7 +1509,8 @@ export default {
           type: {
             0: 'Ice',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 145,
@@ -1376,7 +1520,8 @@ export default {
           type: {
             0: 'Electric',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 146,
@@ -1386,7 +1531,8 @@ export default {
           type: {
             0: 'Fire',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 147,
@@ -1395,7 +1541,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png',
           type: {
             0: 'Dragon'
-          }
+          },
+          got: false
         },
         {
           id: 148,
@@ -1404,7 +1551,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png',
           type: {
             0: 'Dragon'
-          }
+          },
+          got: false
         },
         {
           id: 149,
@@ -1414,7 +1562,8 @@ export default {
           type: {
             0: 'Dragon',
             1: 'Flying'
-          }
+          },
+          got: false
         },
         {
           id: 150,
@@ -1423,7 +1572,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png',
           type: {
             0: 'Psychic'
-          }
+          },
+          got: false
         },
         {
           id: 151,
@@ -1432,7 +1582,8 @@ export default {
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png',
           type: {
             0: 'Psychic'
-          }
+          },
+          got: false
         }
       ]
     }
@@ -1449,6 +1600,7 @@ export default {
       :name="pokemon.name"
       :front_sprite="pokemon.front_sprite"
       :type="pokemon.type"
+      :got="pokemon.got"
     />
   </div>
 </template>
