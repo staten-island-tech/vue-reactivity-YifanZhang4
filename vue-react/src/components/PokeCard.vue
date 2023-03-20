@@ -1,29 +1,19 @@
 <template>
-  <div class="PokeCard" v-if="got === true">
+  <div class="PokeCard">
     <h2>{{ name }}</h2>
     <img v-bind:src="front_sprite" alt="" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
-    <h2>Obtained</h2>
-    <ObtainedButton />
-  </div>
-  <div class="PokeCard" v-if="got === false">
-    <h2>{{ name }}</h2>
-    <img src="" alt="" />
-    <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
-    <h2>Not Obtained</h2>
-    <ObtainedButton />
+    <h2 v-if="got === false">Not Obtained</h2>
+    <h2 v-if="got === true">Obtained</h2>
   </div>
 </template>
 
 <script>
-import ObtainedButton from './ObtainedButton.vue'
 export default {
-  components: { ObtainedButton },
   name: 'PokeCard',
   props: {
     name: String,
     front_sprite: String,
-    grayscale: String,
     type: String,
     got: Boolean
   }
