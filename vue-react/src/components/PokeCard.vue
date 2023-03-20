@@ -1,26 +1,31 @@
 <template>
   <div class="PokeCard">
     <h2>{{ name }}</h2>
-    <img v-bind:src="front_sprite" alt="" />
+    <img v-bind:src="gray_scale" alt="" v-if="got === false" />
+    <img v-bind:src="front_sprite" alt="" v-if="got === true" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
     <h2 v-if="got === false">Not Obtained</h2>
     <h2 v-if="got === true">Obtained</h2>
+    <ObtainedButton />
   </div>
 </template>
 
 <script>
+import ObtainedButton from './ObtainedButton.vue'
 export default {
   name: 'PokeCard',
   props: {
     name: String,
+    gray_scale: String,
     front_sprite: String,
     type: String,
     got: Boolean
-  }
+  },
+  components: { ObtainedButton }
 }
 </script>
 
-<style scoped>
+<style>
 :root {
   /*Type Colors*/
   --Normal: #a8a77a;
@@ -49,6 +54,9 @@ export default {
   --h4: 1.44rem;
   --h5: 1.2rem;
 }
+</style>
+
+<style scoped>
 .PokeCard {
   display: flex;
   flex-direction: column;
@@ -59,7 +67,6 @@ export default {
   padding: 15px 15px;
   background-color: #f2f2f2;
   align-items: center;
-  border-color: var(--Electric);
   border-style: solid;
 }
 h2 {

@@ -13,6 +13,7 @@ export default {
           name: 'Bulbasaur',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
+          gray_scale: '../components/grayscalePokemon/Bulbasaur_gs.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -24,6 +25,7 @@ export default {
           name: 'Ivysaur',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png',
+          gray_scale: '../components/grayscalePokemon/Ivysaur_gs.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -35,6 +37,7 @@ export default {
           name: 'Venusaur',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png',
+          gray_scale: '../components/grayscalePokemon/Venusaur_gs.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -46,6 +49,7 @@ export default {
           name: 'Charmander',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png',
+          gray_scale: '../components/grayscalePokemon/Charmander_gs.png',
           type: {
             0: 'Fire'
           },
@@ -56,6 +60,7 @@ export default {
           name: 'Charmeleon',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
+          gray_scale: '../components/grayscalePokemon/Charmeleon_gs.png',
           type: {
             0: 'Fire'
           },
@@ -66,6 +71,7 @@ export default {
           name: 'Charizard',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png',
+          gray_scale: '../components/grayscalePokemon/Charizard_gs.png',
           type: {
             0: 'Fire',
             1: 'Flying'
@@ -77,6 +83,7 @@ export default {
           name: 'Squirtle',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png',
+          gray_scale: '../components/grayscalePokemon/Squirtle_gs.png',
           type: {
             0: 'Water'
           },
@@ -87,6 +94,7 @@ export default {
           name: 'Wartortle',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png',
+          gray_scale: '../components/grayscalePokemon/Wartortle_gs.png',
           type: {
             0: 'Water'
           },
@@ -97,6 +105,7 @@ export default {
           name: 'Blastoise',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png',
+          gray_scale: '../components/grayscalePokemon/Blastoise_gs.png',
           type: {
             0: 'Water'
           },
@@ -107,6 +116,7 @@ export default {
           name: 'Caterpie',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png',
+          gray_scale: '../components/grayscalePokemon/Caterpie_gs.png',
           type: {
             0: 'Bug'
           },
@@ -117,6 +127,7 @@ export default {
           name: 'Metapod',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png',
+          gray_scale: '../components/grayscalePokemon/Metapod_gs.png',
           type: {
             0: 'Bug'
           },
@@ -127,6 +138,7 @@ export default {
           name: 'Butterfree',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png',
+          gray_scale: '../components/grayscalePokemon/Butterfree_gs.png',
           type: {
             0: 'Bug',
             1: 'Flying'
@@ -138,6 +150,7 @@ export default {
           name: 'Weedle',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png',
+          gray_scale: '../components/grayscalePokemon/Weedle_gs.png',
           type: {
             0: 'Bug',
             1: 'Poison'
@@ -149,6 +162,7 @@ export default {
           name: 'Kakuna',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png',
+          gray_scale: '../components/grayscalePokemon/Kakuna_gs.png',
           type: {
             0: 'Bug',
             1: 'Poison'
@@ -160,6 +174,7 @@ export default {
           name: 'Beedrill',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png',
+          gray_scale: '../components/grayscalePokemon/Beedrill_gs.png',
           type: {
             0: 'Bug',
             1: 'Poison'
@@ -171,6 +186,7 @@ export default {
           name: 'Pidgey',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png',
+          gray_scale: '../components/grayscalePokemon/Pidgey_gs.png',
           type: {
             0: 'Normal',
             1: 'Flying'
@@ -182,6 +198,7 @@ export default {
           name: 'Pidgeotto',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png',
+          gray_scale: '../components/grayscalePokemon/Pidgeotto_gs.png',
           type: {
             0: 'Normal',
             1: 'Flying'
@@ -193,6 +210,7 @@ export default {
           name: 'Pidgeot',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png',
+          gray_scale: '../components/grayscalePokemon/Pidgeot_gs.png',
           type: {
             0: 'Normal',
             1: 'Flying'
@@ -204,6 +222,7 @@ export default {
           name: 'Rattata',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png',
+          gray_scale: '../components/grayscalePokemon/Rattata_gs.png',
           type: {
             0: 'Normal'
           },
@@ -214,6 +233,7 @@ export default {
           name: 'Raticate',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png',
+          gray_scale: '../components/grayscalePokemon/Raticate_gs.png',
           type: {
             0: 'Normal'
           },
@@ -224,6 +244,7 @@ export default {
           name: 'Spearow',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png',
+          gray_scale: '../components/grayscalePokemon/Spearow_gs.png',
           type: {
             0: 'Normal',
             1: 'Flying'
@@ -235,6 +256,7 @@ export default {
           name: 'Fearow',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png',
+          gray_scale: '../components/grayscalePokemon/Fearow_gs.png',
           type: {
             0: 'Normal',
             1: 'Flying'
@@ -246,6 +268,7 @@ export default {
           name: 'Ekans',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png',
+          gray_scale: '../components/grayscalePokemon/Ekans_gs.png',
           type: {
             0: 'Poison'
           },
@@ -256,6 +279,7 @@ export default {
           name: 'Arbok',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png',
+          gray_scale: '../components/grayscalePokemon/Arbok_gs.png',
           type: {
             0: 'Poison'
           },
@@ -266,6 +290,7 @@ export default {
           name: 'Pikachu',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+          gray_scale: '../components/grayscalePokemon/Pikachu_gs.png',
           type: {
             0: 'Electric'
           },
@@ -276,6 +301,7 @@ export default {
           name: 'Raichu',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png',
+          gray_scale: '../components/grayscalePokemon/Raichu_gs.png',
           type: {
             0: 'Electric'
           },
@@ -286,6 +312,7 @@ export default {
           name: 'Sandshrew',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png',
+          gray_scale: '../components/grayscalePokemon/Sandshrew_gs.png',
           type: {
             0: 'Ground'
           },
@@ -296,6 +323,7 @@ export default {
           name: 'Sandslash',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png',
+          gray_scale: '../components/grayscalePokemon/Sandslash_gs.png',
           type: {
             0: 'Ground'
           },
@@ -306,6 +334,7 @@ export default {
           name: 'Nidoran♀',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png',
+          gray_scale: '../components/grayscalePokemon/Nidoran♀_gs.png',
           type: {
             0: 'Poison'
           },
@@ -316,6 +345,7 @@ export default {
           name: 'Nidorina',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png',
+          gray_scale: '../components/grayscalePokemon/Nidorina_gs.png',
           type: {
             0: 'Poison'
           },
@@ -326,6 +356,7 @@ export default {
           name: 'Nidoqueen',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png',
+          gray_scale: '../components/grayscalePokemon/Nidoqueen_gs.png',
           type: {
             0: 'Poison',
             1: 'Ground'
@@ -337,6 +368,7 @@ export default {
           name: 'Nidoran♂',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png',
+          gray_scale: '../components/grayscalePokemon/Nidoran♂_gs.png',
           type: {
             0: 'Poison'
           },
@@ -347,6 +379,7 @@ export default {
           name: 'Nidorino',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png',
+          gray_scale: '../components/grayscalePokemon/Nidorino_gs.png',
           type: {
             0: 'Poison'
           },
@@ -357,6 +390,7 @@ export default {
           name: 'Nidoking',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png',
+          gray_scale: '../components/grayscalePokemon/Nidoking_gs.png',
           type: {
             0: 'Poison',
             1: 'Ground'
@@ -368,6 +402,7 @@ export default {
           name: 'Clefairy',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png',
+          gray_scale: '../components/grayscalePokemon/Clefairy_gs.png',
           type: {
             0: 'Fairy'
           },
@@ -378,6 +413,7 @@ export default {
           name: 'Clefable',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png',
+          gray_scale: '../components/grayscalePokemon/Clefable_gs.png',
           type: {
             0: 'Fairy'
           },
@@ -388,6 +424,7 @@ export default {
           name: 'Vulpix',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png',
+          gray_scale: '../components/grayscalePokemon/Vulpix_gs.png',
           type: {
             0: 'Fire'
           },
@@ -398,6 +435,7 @@ export default {
           name: 'Ninetales',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png',
+          gray_scale: '../components/grayscalePokemon/Ninetales_gs.png',
           type: {
             0: 'Fire'
           },
@@ -408,6 +446,7 @@ export default {
           name: 'Jigglypuff',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png',
+          gray_scale: '../components/grayscalePokemon/Jigglypuff_gs.png',
           type: {
             0: 'Normal',
             1: 'Fairy'
@@ -419,6 +458,7 @@ export default {
           name: 'Wigglytuff',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png',
+          gray_scale: '../components/grayscalePokemon/Wigglytuff_gs.png',
           type: {
             0: 'Normal',
             1: 'Fairy'
@@ -430,17 +470,19 @@ export default {
           name: 'Zubat',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png',
+          gray_scale: '../components/grayscalePokemon/Zubat_gs.png',
           type: {
             0: 'Poison',
             1: 'Flying'
           },
-          got: false
+          got: []
         },
         {
           id: 42,
           name: 'Golbat',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png',
+          gray_scale: '../components/grayscalePokemon/Golbat_gs.png',
           type: {
             0: 'Poison',
             1: 'Flying'
@@ -452,6 +494,7 @@ export default {
           name: 'Oddish',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png',
+          gray_scale: '../components/grayscalePokemon/Oddish_gs.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -463,6 +506,7 @@ export default {
           name: 'Gloom',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png',
+          gray_scale: '../components/grayscalePokemon/Gloom_gs.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -474,6 +518,7 @@ export default {
           name: 'Vileplum',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png',
+          gray_scale: '../components/grayscalePokemon/Vileplum_gs.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -485,6 +530,7 @@ export default {
           name: 'Paras',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png',
+          gray_scale: '../components/grayscalePokemon/Paras_gs.png',
           type: {
             0: 'Bug',
             1: 'Grass'
@@ -496,6 +542,7 @@ export default {
           name: 'Parasect',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png',
+          gray_scale: '../components/grayscalePokemon/Parasect_gs.png',
           type: {
             0: 'Bug',
             1: 'Grass'
@@ -504,9 +551,10 @@ export default {
         },
         {
           id: 48,
-          name: 'Venoant',
+          name: 'Venonat',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png',
+          gray_scale: '../components/grayscalePokemon/Venonat_gs.png',
           type: {
             0: 'Bug',
             1: 'Poison'
@@ -518,6 +566,7 @@ export default {
           name: 'Venomoth',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png',
+          gray_scale: '../components/grayscalePokemon/Venomoth_gs.png',
           type: {
             0: 'Bug',
             1: 'Poison'
@@ -529,6 +578,7 @@ export default {
           name: 'Diglett',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png',
+          gray_scale: '../components/grayscalePokemon/Diglett_gs.png',
           type: {
             0: 'Ground'
           },
@@ -539,6 +589,7 @@ export default {
           name: 'Dugtrio',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png',
+          gray_scale: '../components/grayscalePokemon/Dugtrio_gs.png',
           type: {
             0: 'Ground'
           },
@@ -549,6 +600,7 @@ export default {
           name: 'Meowth',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png',
+          gray_scale: '../components/grayscalePokemon/Meowth_gs.png',
           type: {
             0: 'Normal'
           },
@@ -559,6 +611,7 @@ export default {
           name: 'Persian',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png',
+          gray_scale: '../components/grayscalePokemon/Persian_gs.png',
           type: {
             0: 'Normal'
           },
@@ -569,6 +622,7 @@ export default {
           name: 'Psyduck',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png',
+          gray_scale: '../components/grayscalePokemon/Psyduck_gs.png',
           type: {
             0: 'Water'
           },
@@ -579,6 +633,7 @@ export default {
           name: 'Golduck',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+          gray_scale: '../components/grayscalePokemon/Golduck_gs.png',
           type: {
             0: 'Water'
           },
@@ -589,6 +644,7 @@ export default {
           name: 'Mankey',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png',
+          gray_scale: '../components/grayscalePokemon/Mankey_gs.png',
           type: {
             0: 'Fighting'
           },
@@ -599,6 +655,7 @@ export default {
           name: 'Primeape',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png',
+          gray_scale: '../components/grayscalePokemon/Primeape_gs.png',
           type: {
             0: 'Fighting'
           },
@@ -609,6 +666,7 @@ export default {
           name: 'Growlithe',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png',
+          gray_scale: '../components/grayscalePokemon/Growlithe_gs.png',
           type: {
             0: 'Fire'
           },
@@ -619,6 +677,7 @@ export default {
           name: 'Arcanine',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png',
+          gray_scale: '../components/grayscalePokemon/Arcanine_gs.png',
           type: {
             0: 'Fire'
           },
@@ -629,6 +688,7 @@ export default {
           name: 'Poliwag',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png',
+          gray_scale: '../components/grayscalePokemon/Poliwag_gs.png',
           type: {
             0: 'Water'
           },
@@ -639,6 +699,7 @@ export default {
           name: 'Poliwhirl',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png',
+          gray_scale: '../components/grayscalePokemon/Poliwhirl_gs.png',
           type: {
             0: 'Water'
           },
@@ -649,6 +710,7 @@ export default {
           name: 'Poliwrath',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png',
+          gray_scale: '../components/grayscalePokemon/Poliwrath_gs.png',
           type: {
             0: 'Water',
             1: 'Fighting'
@@ -660,6 +722,7 @@ export default {
           name: 'Abra',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png',
+          gray_scale: '../components/grayscalePokemon/Abra_gs.png',
           type: {
             0: 'Psychic'
           },
@@ -670,6 +733,7 @@ export default {
           name: 'Kadabra',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png',
+          gray_scale: '../components/grayscalePokemon/Kadabra_gs.png',
           type: {
             0: 'Psychic'
           },
@@ -680,6 +744,7 @@ export default {
           name: 'Alakazam',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png',
+          gray_scale: '../components/grayscalePokemon/Alakazam_gs.png',
           type: {
             0: 'Psychic'
           },
@@ -690,6 +755,7 @@ export default {
           name: 'Machop',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png',
+          gray_scale: '../components/grayscalePokemon/Machop_gs.png',
           type: {
             0: 'Fighting'
           },
@@ -700,6 +766,7 @@ export default {
           name: 'Machoke',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png',
+          gray_scale: '../components/grayscalePokemon/Machoke_gs.png',
           type: {
             0: 'Fighting'
           },
@@ -710,6 +777,7 @@ export default {
           name: 'Machamp',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png',
+          gray_scale: '../components/grayscalePokemon/Machamp_gs.png',
           type: {
             0: 'Fighting'
           },
@@ -720,6 +788,7 @@ export default {
           name: 'Bellsprout',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png',
+          gray_scale: '../components/grayscalePokemon/Bellsprout_gs.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -731,6 +800,7 @@ export default {
           name: 'Weepinbell',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png',
+          gray_scale: '../components/grayscalePokemon/Weepinbell_gs.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -742,6 +812,7 @@ export default {
           name: 'Victreebel',
           front_sprite:
             'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png',
+          gray_scale: '../components/grayscalePokemon/Victr.png',
           type: {
             0: 'Grass',
             1: 'Poison'
@@ -1598,6 +1669,7 @@ export default {
       :key="pokemon"
       :pokemon="pokemon"
       :name="pokemon.name"
+      :gray_scale="pokemon.gray_scale"
       :front_sprite="pokemon.front_sprite"
       :type="pokemon.type"
       :got="pokemon.got"
