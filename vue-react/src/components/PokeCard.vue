@@ -1,11 +1,16 @@
 <template>
-  <div class="PokeCard">
+  <div class="PokeCard" v-if="got === false">
     <h2>{{ name }}</h2>
-    <img v-bind:src="gray_scale" alt="" v-if="got === false" />
-    <img v-bind:src="front_sprite" alt="" v-if="got === true" />
+    <img v-bind:src="gray_scale" alt="" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
-    <h2 v-if="got === false">Not Obtained</h2>
-    <h2 v-if="got === true">Obtained</h2>
+    <h2>Not Obtained</h2>
+    <ObtainedButton />
+  </div>
+  <div class="PokeCard" v-if="got === true">
+    <h2>{{ name }}</h2>
+    <img v-bind:src="front_sprite" alt="" />
+    <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
+    <h2>Obtained</h2>
     <ObtainedButton />
   </div>
 </template>
