@@ -1630,10 +1630,4 @@ const PokeList = [
   }
 ]
 
-// export default {
-//   PokeList: Array
-// }
-// export { PokeList }
-
-
 export default PokeList

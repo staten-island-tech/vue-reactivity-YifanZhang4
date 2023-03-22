@@ -2,11 +2,11 @@
   <div class="PokeCard" v-if="got === false" :style="borderColor">
     <h2 class="name">{{ name }}</h2>
     <img v-bind:src="gray_scale" alt="" />
-    <h2 >Type: {{ type[0] }} {{ type[1] }}</h2>
+    <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
     <h2>Not Obtained</h2>
   </div>
   <div class="PokeCard" v-if="got === true" :style="borderColor">
-    <h2 class="name" >{{ name }}</h2>
+    <h2 class="name">{{ name }}</h2>
     <img v-bind:src="front_sprite" alt="" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
     <h2>Obtained</h2>
@@ -22,10 +22,7 @@ export default {
     front_sprite: String,
     type: String,
     got: Boolean
-  },
-}
-function borderColor(){
-  return "border-color: " + this.colors[`${this.type[0]}`]
+  }
 }
 const colors = {
   Normal: 'a8a77a',
@@ -45,9 +42,11 @@ const colors = {
   Dragon: '6f35fc',
   Dark: '705746',
   Steel: 'b7b7ce',
-  Fairy: 'd685ad',
+  Fairy: 'd685ad'
 }
-
+function borderColor() {
+  return 'border-color: ' + this.colors[`${this.type[0]}`]
+}
 </script>
 
 <style>
@@ -66,8 +65,8 @@ const colors = {
   display: flex;
   flex-direction: column;
   border-radius: 15px;
-  height: 13rem;
-  width: 13rem;
+  height: 15rem;
+  width: 15rem;
   margin: 10px 10px;
   padding: 15px 15px;
   background-color: #f2f2f2;
@@ -79,7 +78,7 @@ h2 {
   font-size: 1rem;
   display: block;
 }
-.name{
+.name {
   font-size: var(--h3);
 }
 
