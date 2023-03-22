@@ -1,22 +1,19 @@
 <template>
-  <div class="PokeCard" v-if="got === false">
-    <h2>{{ name }}</h2>
+  <div class="PokeCard" v-if="got === false" :style="borderColor">
+    <h2 class="name">{{ name }}</h2>
     <img v-bind:src="gray_scale" alt="" />
-    <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
+    <h2 >Type: {{ type[0] }} {{ type[1] }}</h2>
     <h2>Not Obtained</h2>
-    <ObtainedButton />
   </div>
-  <div class="PokeCard" v-if="got === true">
-    <h2>{{ name }}</h2>
+  <div class="PokeCard" v-if="got === true" :style="borderColor">
+    <h2 class="name" >{{ name }}</h2>
     <img v-bind:src="front_sprite" alt="" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
     <h2>Obtained</h2>
-    <ObtainedButton />
   </div>
 </template>
 
 <script>
-import ObtainedButton from './ObtainedButton.vue'
 export default {
   name: 'PokeCard',
   props: {
@@ -26,32 +23,35 @@ export default {
     type: String,
     got: Boolean
   },
-  components: { ObtainedButton }
 }
+function borderColor(){
+  return "border-color: " + this.colors[`${this.type[0]}`]
+}
+const colors = {
+  Normal: 'a8a77a',
+  Fire: 'ee8130',
+  Water: '6390f0',
+  Electric: 'f7d02c',
+  Grass: '7ac74c',
+  Ice: '96d9d6',
+  Fighting: 'c22e28',
+  Poison: 'a33ea1',
+  Ground: 'e2bf65',
+  Flying: '#98ff3',
+  Psychic: 'f95587',
+  Bug: 'a6b91a',
+  Rock: 'b6a136',
+  Ghost: '735797',
+  Dragon: '6f35fc',
+  Dark: '705746',
+  Steel: 'b7b7ce',
+  Fairy: 'd685ad',
+}
+
 </script>
 
 <style>
 :root {
-  /*Type Colors*/
-  --Normal: #a8a77a;
-  --Fire: #ee8130;
-  --Water: #6390f0;
-  --Electric: #f7d02c;
-  --Grass: #7ac74c;
-  --Ice: #96d9d6;
-  --Fighting: #c22e28;
-  --Poison: #a33ea1;
-  --Ground: #e2bf65;
-  --Flying: #a98ff3;
-  --Psychic: #f95587;
-  --Bug: #a6b91a;
-  --Rock: #b6a136;
-  --Ghost: #735797;
-  --Dragon: #6f35fc;
-  --Dark: #705746;
-  --Steel: #b7b7ce;
-  --Fairy: #d685ad;
-
   /*TypeScale*/
   --h1: 2.488rem;
   --h2: 2.074rem;
@@ -79,6 +79,10 @@ h2 {
   font-size: 1rem;
   display: block;
 }
+.name{
+  font-size: var(--h3);
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
