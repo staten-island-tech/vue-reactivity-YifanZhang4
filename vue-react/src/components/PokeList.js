@@ -3,7 +3,6 @@ const PokeList = [
     id: 1,
     name: 'Bulbasaur',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
-    gray_scale: '/src/components/grayscalePokemon/Bulbasaur_gs.png',
     type: {
       0: 'Grass',
       1: 'Poison'
@@ -14,7 +13,6 @@ const PokeList = [
     id: 2,
     name: 'Ivysaur',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png',
-    gray_scale: '/src/components/grayscalePokemon/Ivysaur_gs.png',
     type: {
       0: 'Grass',
       1: 'Poison'
@@ -25,7 +23,6 @@ const PokeList = [
     id: 3,
     name: 'Venusaur',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png',
-    gray_scale: '/src/components/grayscalePokemon/Venusaur_gs.png',
     type: {
       0: 'Grass',
       1: 'Poison'
@@ -36,7 +33,6 @@ const PokeList = [
     id: 4,
     name: 'Charmander',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png',
-    gray_scale: '/src/components/grayscalePokemon/Charmander_gs.png',
     type: {
       0: 'Fire'
     },
@@ -46,7 +42,6 @@ const PokeList = [
     id: 5,
     name: 'Charmeleon',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
-    gray_scale: '/src/components/grayscalePokemon/Charmeleon_gs.png',
     type: {
       0: 'Fire'
     },
@@ -56,7 +51,6 @@ const PokeList = [
     id: 6,
     name: 'Charizard',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png',
-    gray_scale: '/src/components/grayscalePokemon/Charizard_gs.png',
     type: {
       0: 'Fire',
       1: 'Flying'
@@ -67,7 +61,6 @@ const PokeList = [
     id: 7,
     name: 'Squirtle',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png',
-    gray_scale: '/src/components/grayscalePokemon/Squirtle_gs.png',
     type: {
       0: 'Water'
     },
@@ -77,7 +70,6 @@ const PokeList = [
     id: 8,
     name: 'Wartortle',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png',
-    gray_scale: '/src/components/grayscalePokemon/Wartortle_gs.png',
     type: {
       0: 'Water'
     },
@@ -87,7 +79,6 @@ const PokeList = [
     id: 9,
     name: 'Blastoise',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png',
-    gray_scale: '/src/components/grayscalePokemon/Blastoise_gs.png',
     type: {
       0: 'Water'
     },
@@ -97,7 +88,6 @@ const PokeList = [
     id: 10,
     name: 'Caterpie',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png',
-    gray_scale: '/src/components/grayscalePokemon/Caterpie_gs.png',
     type: {
       0: 'Bug'
     },
@@ -107,7 +97,6 @@ const PokeList = [
     id: 11,
     name: 'Metapod',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png',
-    gray_scale: '/src/components/grayscalePokemon/Metapod_gs.png',
     type: {
       0: 'Bug'
     },
@@ -117,7 +106,6 @@ const PokeList = [
     id: 12,
     name: 'Butterfree',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png',
-    gray_scale: '/src/components/grayscalePokemon/Butterfree_gs.png',
     type: {
       0: 'Bug',
       1: 'Flying'
@@ -128,7 +116,6 @@ const PokeList = [
     id: 13,
     name: 'Weedle',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png',
-    gray_scale: '/src/components/grayscalePokemon/Weedle_gs.png',
     type: {
       0: 'Bug',
       1: 'Poison'
@@ -139,7 +126,6 @@ const PokeList = [
     id: 14,
     name: 'Kakuna',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png',
-    gray_scale: '/src/components/grayscalePokemon/Kakuna_gs.png',
     type: {
       0: 'Bug',
       1: 'Poison'
@@ -150,7 +136,6 @@ const PokeList = [
     id: 15,
     name: 'Beedrill',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png',
-    gray_scale: '/src/components/grayscalePokemon/Beedrill_gs.png',
     type: {
       0: 'Bug',
       1: 'Poison'
@@ -161,7 +146,6 @@ const PokeList = [
     id: 16,
     name: 'Pidgey',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png',
-    gray_scale: '/src/components/grayscalePokemon/Pidgey_gs.png',
     type: {
       0: 'Normal',
       1: 'Flying'
@@ -172,7 +156,6 @@ const PokeList = [
     id: 17,
     name: 'Pidgeotto',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png',
-    gray_scale: '/src/components/grayscalePokemon/Pidgeotto_gs.png',
     type: {
       0: 'Normal',
       1: 'Flying'
@@ -183,7 +166,6 @@ const PokeList = [
     id: 18,
     name: 'Pidgeot',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png',
-    gray_scale: '/src/components/grayscalePokemon/Pidgeot_gs.png',
     type: {
       0: 'Normal',
       1: 'Flying'
@@ -194,7 +176,6 @@ const PokeList = [
     id: 19,
     name: 'Rattata',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png',
-    gray_scale: '/src/components/grayscalePokemon/Rattata_gs.png',
     type: {
       0: 'Normal'
     },
@@ -204,7 +185,6 @@ const PokeList = [
     id: 20,
     name: 'Raticate',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png',
-    gray_scale: '/src/components/grayscalePokemon/Raticate_gs.png',
     type: {
       0: 'Normal'
     },
@@ -214,7 +194,6 @@ const PokeList = [
     id: 21,
     name: 'Spearow',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png',
-    gray_scale: '/src/components/grayscalePokemon/Spearow_gs.png',
     type: {
       0: 'Normal',
       1: 'Flying'
@@ -225,7 +204,6 @@ const PokeList = [
     id: 22,
     name: 'Fearow',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png',
-    gray_scale: '/src/components/grayscalePokemon/Fearow_gs.png',
     type: {
       0: 'Normal',
       1: 'Flying'
@@ -236,7 +214,6 @@ const PokeList = [
     id: 23,
     name: 'Ekans',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png',
-    gray_scale: '/src/components/grayscalePokemon/Ekans_gs.png',
     type: {
       0: 'Poison'
     },
@@ -246,7 +223,6 @@ const PokeList = [
     id: 24,
     name: 'Arbok',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png',
-    gray_scale: '/src/components/grayscalePokemon/Arbok_gs.png',
     type: {
       0: 'Poison'
     },
@@ -256,7 +232,6 @@ const PokeList = [
     id: 25,
     name: 'Pikachu',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
-    gray_scale: '/src/components/grayscalePokemon/Pikachu_gs.png',
     type: {
       0: 'Electric'
     },
@@ -266,7 +241,6 @@ const PokeList = [
     id: 26,
     name: 'Raichu',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png',
-    gray_scale: '/src/components/grayscalePokemon/Raichu_gs.png',
     type: {
       0: 'Electric'
     },
@@ -388,7 +362,6 @@ const PokeList = [
     id: 38,
     name: 'Ninetales',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png',
-    gray_scale: '/src/components/grayscalePokemon/Ninetales_gs.png',
     type: {
       0: 'Fire'
     },
@@ -398,7 +371,6 @@ const PokeList = [
     id: 39,
     name: 'Jigglypuff',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png',
-    gray_scale: '/src/components/grayscalePokemon/Jigglypuff_gs.png',
     type: {
       0: 'Normal',
       1: 'Fairy'
@@ -409,7 +381,7 @@ const PokeList = [
     id: 40,
     name: 'Wigglytuff',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png',
-    gray_scale: '/src/components/grayscalePokemon/Wigglytuff_gs.png',
+
     type: {
       0: 'Normal',
       1: 'Fairy'
@@ -420,18 +392,17 @@ const PokeList = [
     id: 41,
     name: 'Zubat',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png',
-    gray_scale: '/src/components/grayscalePokemon/Zubat_gs.png',
+
     type: {
       0: 'Poison',
       1: 'Flying'
     },
-    got: []
+    got: false
   },
   {
     id: 42,
     name: 'Golbat',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png',
-    gray_scale: '/src/components/grayscalePokemon/Golbat_gs.png',
     type: {
       0: 'Poison',
       1: 'Flying'
@@ -442,7 +413,6 @@ const PokeList = [
     id: 43,
     name: 'Oddish',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png',
-    gray_scale: '/src/components/grayscalePokemon/Oddish_gs.png',
     type: {
       0: 'Grass',
       1: 'Poison'
@@ -453,7 +423,6 @@ const PokeList = [
     id: 44,
     name: 'Gloom',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png',
-    gray_scale: '/src/components/grayscalePokemon/Gloom_gs.png',
     type: {
       0: 'Grass',
       1: 'Poison'
@@ -464,7 +433,6 @@ const PokeList = [
     id: 45,
     name: 'Vileplume',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png',
-    gray_scale: '/src/components/grayscalePokemon/Vileplume_gs.png',
     type: {
       0: 'Grass',
       1: 'Poison'

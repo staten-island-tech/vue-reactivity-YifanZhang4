@@ -1,11 +1,9 @@
 <script>
 import PokeCard from '../components/PokeCard.vue'
 import PokeList from '../components/PokeList.js'
-import ObtainedButton from '../components/ObtainedButton.vue'
 export default {
   components: {
-    PokeCard,
-    ObtainedButton
+    PokeCard
   },
   data() {
     return {
@@ -27,7 +25,6 @@ export default {
       :key="pokemon"
       :pokemon="pokemon"
       :name="pokemon.name"
-      :gray_scale="pokemon.gray_scale"
       :front_sprite="pokemon.front_sprite"
       :type="pokemon.type"
       :got="pokemon.got"
@@ -40,5 +37,4 @@ export default {
   display: flex;
   flex-flow: row wrap;
 }
-
 </style>

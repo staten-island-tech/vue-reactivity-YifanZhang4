@@ -1,11 +1,11 @@
 <template>
-  <div class="PokeCard" v-if="got === false" :style="borderColor">
+  <div class="PokeCard" v-if="got === false" :style="border" v-bind="$attrs">
     <h2 class="name">{{ name }}</h2>
-    <img v-bind:src="gray_scale" alt="" />
+    <img v-bind:src="front_sprite" alt="" class="grayscale" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
     <h2>Not Obtained</h2>
   </div>
-  <div class="PokeCard" v-if="got === true" :style="borderColor">
+  <div class="PokeCard" v-if="got === true" :style="border">
     <h2 class="name">{{ name }}</h2>
     <img v-bind:src="front_sprite" alt="" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
@@ -18,34 +18,39 @@ export default {
   name: 'PokeCard',
   props: {
     name: String,
-    gray_scale: String,
     front_sprite: String,
-    type: String,
+    type: Object,
     got: Boolean
+  },
+  data() {
+    return {
+      colors: {
+        Normal: '#a8a77a',
+        Fire: '#ee8130',
+        Water: '#6390f0',
+        Electric: '#f7d02c',
+        Grass: '#7ac74c',
+        Ice: '#96d9d6',
+        Fighting: '#c22e28',
+        Poison: '#a33ea1',
+        Ground: '#e2bf65',
+        Flying: '#a98ff3',
+        Psychic: '#f95587',
+        Bug: '#a6b91a',
+        Rock: '#b6a136',
+        Ghost: '#735797',
+        Dragon: '#6f35fc',
+        Dark: '#705746',
+        Steel: '#b7b7ce',
+        Fairy: '#d685ad'
+      }
+    }
+  },
+  computed: {
+    border: function borderColor() {
+      return 'border: ' + '5px ' + 'solid ' + this.colors[`${this.type[0]}`]
+    }
   }
-}
-const colors = {
-  Normal: 'a8a77a',
-  Fire: 'ee8130',
-  Water: '6390f0',
-  Electric: 'f7d02c',
-  Grass: '7ac74c',
-  Ice: '96d9d6',
-  Fighting: 'c22e28',
-  Poison: 'a33ea1',
-  Ground: 'e2bf65',
-  Flying: '#98ff3',
-  Psychic: 'f95587',
-  Bug: 'a6b91a',
-  Rock: 'b6a136',
-  Ghost: '735797',
-  Dragon: '6f35fc',
-  Dark: '705746',
-  Steel: 'b7b7ce',
-  Fairy: 'd685ad'
-}
-function borderColor() {
-  return 'border-color: ' + this.colors[`${this.type[0]}`]
 }
 </script>
 
@@ -71,7 +76,6 @@ function borderColor() {
   padding: 15px 15px;
   background-color: #f2f2f2;
   align-items: center;
-  border-style: solid;
 }
 h2 {
   text-align: center;
@@ -85,5 +89,8 @@ h2 {
 img {
   max-width: 100%;
   max-height: 100%;
+}
+.grayscale {
+  filter: grayscale();
 }
 </style>
