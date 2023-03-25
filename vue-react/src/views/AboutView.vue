@@ -9,11 +9,6 @@ export default {
     return {
       list: PokeList
     }
-  },
-  methods: {
-    test() {
-      console.log(this.list)
-    }
   }
 }
 </script>

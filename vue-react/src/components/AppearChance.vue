@@ -1,9 +1,13 @@
 <template>
   <div id="foundMon"></div>
-  <button @click="findRandom" id="find">Explore Tall Grass</button>
-  <button @click="runs" id="run">Run Away</button>
-  <button @click="catches" id="catch">Catch</button>
-  <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif" />
+  <form>
+    <button @click="findRandom" id="find">Explore Tall Grass</button>
+    <button @click="runs" id="run">Run Away</button>
+    <button @click="catches" id="catch">Catch</button>
+    <button @click="reset" id="reset">Onto the Next!</button>
+  </form>
+
+  <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif" class="gif" />
 </template>
 
 <script>
@@ -12,18 +16,17 @@ export default {
   components: {},
   name: 'options',
   props: {
-    found: Element
   },
   data() {
     return {
-      list: PokeList
+      list: PokeList,
+      found: Array
     }
   },
   computed: {
     findRandom: function findRandom() {
       console.log('find')
-      const list = PokeList
-      const found = list[Math.floor(Math.random() * list.length)]
+      const found = PokeList[Math.floor(Math.random() * PokeList.length)]
       console.log(found)
       const div = document.getElementById('foundMon')
       div.insertAdjacentHTML(
@@ -51,6 +54,8 @@ export default {
       run.remove()
       const catches = document.getElementById('catch')
       catches.remove()
+      const reset = document.getElementById('reset')
+      reset.style.display = 'flex'
     },
     catches: function catches() {
       console.log('catch')
@@ -73,17 +78,31 @@ export default {
       console.log(result)
       if (result < this.found.chance || result === this.found.chance) {
         console.log('success')
+        const gif = document.getElementById('gif')
+        gif.remove()
         const div = document.getElementById('foundMon')
         div.insertAdjacentHTML(
           'beforeend',
-          `<h2>You have sucessfully caught ${this.found.name}.</h2>`
+          `<img src="/src/assets/sucess pokebal.gif" alt="PokeBall gif with radiating light around it and sparkles" class="gif" />
+          <h2>You have sucessfully caught ${this.found.name}.</h2>`
         )
+        const reset = document.getElementById('reset')
+        reset.style.display = 'flex'
         this.found.got = true
+        PokeList.remove(this.found.id)
       } else {
         console.log('fail')
         const div = document.getElementById('foundMon')
-        div.insertAdjacentHTML('beforeend', `<h2>You failed to catch ${this.found.name}.</h2>`)
+        div.insertAdjacentHTML(
+          'beforeend',
+          `<img src="/src/assets/fal pokebal.gif" alt="PokeBall gif witha dark blue cloud behind it and gloomy lines" class="gif" /><h2>You failed to catch ${this.found.name}.</h2>`
+        )
+        const reset = document.getElementById('reset')
+        reset.style.display = 'flex'
       }
+    },
+    reset: function reset() {
+      document.getElementById('foundMon').reset()
     }
   }
 }
@@ -96,9 +115,12 @@ export default {
 #catch {
   display: none;
 }
-#gif {
+.gif {
   max-width: 10%;
   max-height: 10%;
+  display: none;
+}
+#reset {
   display: none;
 }
 </style>
