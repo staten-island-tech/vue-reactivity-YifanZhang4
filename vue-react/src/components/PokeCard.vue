@@ -1,13 +1,13 @@
 <template>
   <div class="PokeCard" v-if="got === false" :style="border" v-bind="$attrs">
     <h2 class="name">{{ name }}</h2>
-    <img v-bind:src="front_sprite" alt="" class="grayscale" />
+    <img :src="front_sprite" alt="" class="grayscale" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
     <h2>Not Obtained</h2>
   </div>
   <div class="PokeCard" v-if="got === true" :style="border">
     <h2 class="name">{{ name }}</h2>
-    <img v-bind:src="front_sprite" alt="" />
+    <img :src="front_sprite" alt="" />
     <h2>Type: {{ type[0] }} {{ type[1] }}</h2>
     <h2>Obtained</h2>
   </div>

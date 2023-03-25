@@ -1,15 +1,19 @@
 <template>
-  <div class="about">
-    <h1>This is an home page</h1>
-  </div>
+  <findRandom />
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+<script>
+import findRandom from '../components/AppearChance.vue'
+export default {
+  components: {
+    findRandom
+  },
+  data() {
+    return {
+    }
   }
 }
+</script>
+
+<style>
 </style>
