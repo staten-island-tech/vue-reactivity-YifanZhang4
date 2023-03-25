@@ -1,12 +1,12 @@
 <template>
-  <findRandom />
+  <options />
 </template>
 
 <script>
-import findRandom from '../components/AppearChance.vue'
+import options from '../components/AppearChance.vue'
 export default {
   components: {
-    findRandom
+    options
   },
   data() {
     return {

@@ -7,7 +7,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 4,
@@ -36,7 +39,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 5,
@@ -45,7 +49,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 6,
@@ -55,7 +60,8 @@ const PokeList = [
       0: 'Fire',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 7,
@@ -64,7 +70,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 8,
@@ -73,7 +80,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 9,
@@ -82,7 +90,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 10,
@@ -91,7 +100,8 @@ const PokeList = [
     type: {
       0: 'Bug'
     },
-    got: false
+    got: false,
+    chance: 225,
   },
   {
     id: 11,
@@ -100,7 +110,8 @@ const PokeList = [
     type: {
       0: 'Bug'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 12,
@@ -110,7 +121,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 13,
@@ -120,7 +132,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 225,
   },
   {
     id: 14,
@@ -130,7 +143,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 15,
@@ -140,7 +154,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 16,
@@ -150,7 +165,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 225,
   },
   {
     id: 17,
@@ -160,8 +176,9 @@ const PokeList = [
       0: 'Normal',
       1: 'Flying'
     },
-    got: false
-  },
+    got: false,
+    chance: 120,
+  }, 
   {
     id: 18,
     name: 'Pidgeot',
@@ -170,7 +187,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 19,
@@ -179,7 +197,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 20,
@@ -188,7 +207,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 21,
@@ -198,7 +218,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 22,
@@ -208,7 +229,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 23,
@@ -217,7 +239,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 24,
@@ -226,7 +249,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 25,
@@ -235,7 +259,8 @@ const PokeList = [
     type: {
       0: 'Electric'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 26,
@@ -244,7 +269,8 @@ const PokeList = [
     type: {
       0: 'Electric'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 27,
@@ -253,7 +279,8 @@ const PokeList = [
     type: {
       0: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 28,
@@ -262,7 +289,8 @@ const PokeList = [
     type: {
       0: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 29,
@@ -271,7 +299,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 235,
   },
   {
     id: 30,
@@ -280,7 +309,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 31,
@@ -290,7 +320,8 @@ const PokeList = [
       0: 'Poison',
       1: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 32,
@@ -299,7 +330,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 235,
   },
   {
     id: 33,
@@ -308,7 +340,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 34,
@@ -318,7 +351,8 @@ const PokeList = [
       0: 'Poison',
       1: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 35,
@@ -327,7 +361,8 @@ const PokeList = [
     type: {
       0: 'Fairy'
     },
-    got: false
+    got: false,
+    chance: 150,
   },
   {
     id: 36,
@@ -336,7 +371,8 @@ const PokeList = [
     type: {
       0: 'Fairy'
     },
-    got: false
+    got: false,
+    chance: 25,
   },
   {
     id: 37,
@@ -345,7 +381,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 38,
@@ -354,7 +391,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 39,
@@ -364,7 +402,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Fairy'
     },
-    got: false
+    got: false,
+    chance: 170,
   },
   {
     id: 40,
@@ -375,7 +414,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Fairy'
     },
-    got: false
+    got: false,
+    chance: 50,
   },
   {
     id: 41,
@@ -386,7 +426,8 @@ const PokeList = [
       0: 'Poison',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 42,
@@ -396,7 +437,8 @@ const PokeList = [
       0: 'Poison',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 43,
@@ -406,7 +448,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 44,
@@ -416,7 +459,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 45,
@@ -426,7 +470,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 46,
@@ -436,7 +481,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Grass'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 47,
@@ -446,7 +492,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Grass'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 48,
@@ -456,7 +503,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 49,
@@ -466,7 +514,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 50,
@@ -475,7 +524,8 @@ const PokeList = [
     type: {
       0: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 51,
@@ -484,7 +534,8 @@ const PokeList = [
     type: {
       0: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 50,
   },
   {
     id: 52,
@@ -493,7 +544,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 53,
@@ -502,7 +554,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 54,
@@ -511,7 +564,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 55,
@@ -520,7 +574,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 56,
@@ -529,7 +584,8 @@ const PokeList = [
     type: {
       0: 'Fighting'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 57,
@@ -538,7 +594,8 @@ const PokeList = [
     type: {
       0: 'Fighting'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 58,
@@ -547,7 +604,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 59,
@@ -556,7 +614,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 60,
@@ -565,7 +624,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 61,
@@ -574,7 +634,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 62,
@@ -584,7 +645,8 @@ const PokeList = [
       0: 'Water',
       1: 'Fighting'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 63,
@@ -593,7 +655,8 @@ const PokeList = [
     type: {
       0: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 200,
   },
   {
     id: 64,
@@ -602,7 +665,8 @@ const PokeList = [
     type: {
       0: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 100,
   },
   {
     id: 65,
@@ -611,7 +675,8 @@ const PokeList = [
     type: {
       0: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 50,
   },
   {
     id: 66,
@@ -620,7 +685,8 @@ const PokeList = [
     type: {
       0: 'Fighting'
     },
-    got: false
+    got: false,
+    chance: 180,
   },
   {
     id: 67,
@@ -629,7 +695,8 @@ const PokeList = [
     type: {
       0: 'Fighting'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 68,
@@ -638,7 +705,8 @@ const PokeList = [
     type: {
       0: 'Fighting'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 69,
@@ -648,7 +716,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 225,
   },
   {
     id: 70,
@@ -658,7 +727,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 71,
@@ -668,7 +738,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 72,
@@ -678,7 +749,8 @@ const PokeList = [
       0: 'Water',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 73,
@@ -688,7 +760,8 @@ const PokeList = [
       0: 'Water',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 74,
@@ -698,7 +771,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 75,
@@ -708,7 +782,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 76,
@@ -718,7 +793,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 77,
@@ -727,7 +803,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 78,
@@ -736,7 +813,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 79,
@@ -746,7 +824,8 @@ const PokeList = [
       0: 'Water',
       1: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 80,
@@ -756,7 +835,8 @@ const PokeList = [
       0: 'Water',
       1: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 81,
@@ -766,7 +846,8 @@ const PokeList = [
       0: 'Electric',
       1: 'Steel'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 82,
@@ -776,7 +857,8 @@ const PokeList = [
       0: 'Electric',
       1: 'Steel'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 83,
@@ -786,7 +868,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 84,
@@ -796,7 +879,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 85,
@@ -806,7 +890,8 @@ const PokeList = [
       0: 'Normal',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 86,
@@ -815,18 +900,19 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 87,
     name: 'Dewgong',
     front_sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png',
-    gray_scale: '/src/components/grayscalePokemon/Dewgong_gs.png',
     type: {
       0: 'Water',
       1: 'Ice'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 88,
@@ -835,7 +921,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 89,
@@ -844,7 +931,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 90,
@@ -853,7 +941,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 91,
@@ -863,7 +952,8 @@ const PokeList = [
       0: 'Water',
       1: 'Ice'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 92,
@@ -873,7 +963,8 @@ const PokeList = [
       0: 'Ghost',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 93,
@@ -883,7 +974,8 @@ const PokeList = [
       0: 'Ghost',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 94,
@@ -893,7 +985,8 @@ const PokeList = [
       0: 'Ghost',
       1: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 95,
@@ -903,7 +996,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 96,
@@ -912,7 +1006,8 @@ const PokeList = [
     type: {
       0: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 97,
@@ -921,7 +1016,8 @@ const PokeList = [
     type: {
       0: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 98,
@@ -930,7 +1026,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 225,
   },
   {
     id: 99,
@@ -939,7 +1036,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 100,
@@ -949,7 +1047,8 @@ const PokeList = [
     type: {
       0: 'Electric'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 101,
@@ -959,7 +1058,8 @@ const PokeList = [
     type: {
       0: 'Electric'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 102,
@@ -970,7 +1070,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 90,
   },
   {
     id: 103,
@@ -981,7 +1082,8 @@ const PokeList = [
       0: 'Grass',
       1: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 104,
@@ -991,7 +1093,8 @@ const PokeList = [
     type: {
       0: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 105,
@@ -1001,7 +1104,8 @@ const PokeList = [
     type: {
       0: 'Ground'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 106,
@@ -1011,7 +1115,8 @@ const PokeList = [
     type: {
       0: 'Fighting'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 107,
@@ -1021,7 +1126,8 @@ const PokeList = [
     type: {
       0: 'Fighting'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 108,
@@ -1031,7 +1137,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 109,
@@ -1041,7 +1148,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 190,
   },
   {
     id: 110,
@@ -1051,7 +1159,8 @@ const PokeList = [
     type: {
       0: 'Poison'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 111,
@@ -1062,7 +1171,8 @@ const PokeList = [
       0: 'Ground',
       1: 'Rock'
     },
-    got: false
+    got: false,
+    chance: 120,
   },
   {
     id: 112,
@@ -1073,7 +1183,8 @@ const PokeList = [
       0: 'Ground',
       1: 'Rock'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 113,
@@ -1083,7 +1194,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 30,
   },
   {
     id: 114,
@@ -1093,7 +1205,8 @@ const PokeList = [
     type: {
       0: 'Grass'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 115,
@@ -1103,7 +1216,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 116,
@@ -1113,7 +1227,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 225,
   },
   {
     id: 117,
@@ -1123,7 +1238,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 75,
   },
   {
     id: 118,
@@ -1133,7 +1249,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 225,
   },
   {
     id: 119,
@@ -1143,7 +1260,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 120,
@@ -1153,7 +1271,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 225,
   },
   {
     id: 121,
@@ -1164,7 +1283,8 @@ const PokeList = [
       0: 'Water',
       1: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 60,
   },
   {
     id: 122,
@@ -1175,7 +1295,8 @@ const PokeList = [
       0: 'Psychic',
       1: 'Fairy'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 123,
@@ -1186,7 +1307,8 @@ const PokeList = [
       0: 'Bug',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 124,
@@ -1197,7 +1319,8 @@ const PokeList = [
       0: 'Ice',
       1: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 125,
@@ -1207,7 +1330,8 @@ const PokeList = [
     type: {
       0: 'Electric'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 126,
@@ -1217,7 +1341,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 127,
@@ -1227,7 +1352,8 @@ const PokeList = [
     type: {
       0: 'Bug'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 128,
@@ -1237,7 +1363,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 129,
@@ -1247,7 +1374,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 255,
   },
   {
     id: 130,
@@ -1258,7 +1386,8 @@ const PokeList = [
       0: 'Water',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 131,
@@ -1269,7 +1398,8 @@ const PokeList = [
       0: 'Water',
       1: 'Ice'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 132,
@@ -1279,7 +1409,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 35,
   },
   {
     id: 133,
@@ -1289,7 +1420,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 134,
@@ -1299,7 +1431,8 @@ const PokeList = [
     type: {
       0: 'Water'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 135,
@@ -1309,7 +1442,8 @@ const PokeList = [
     type: {
       0: 'Electric'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 136,
@@ -1319,7 +1453,8 @@ const PokeList = [
     type: {
       0: 'Fire'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 137,
@@ -1329,7 +1464,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 138,
@@ -1340,7 +1476,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Water'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 139,
@@ -1351,7 +1488,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Water'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 140,
@@ -1362,7 +1500,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Water'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 141,
@@ -1373,7 +1512,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Water'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 142,
@@ -1384,7 +1524,8 @@ const PokeList = [
       0: 'Rock',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 143,
@@ -1394,7 +1535,8 @@ const PokeList = [
     type: {
       0: 'Normal'
     },
-    got: false
+    got: false,
+    chance: 25,
   },
   {
     id: 144,
@@ -1405,7 +1547,8 @@ const PokeList = [
       0: 'Ice',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 3,
   },
   {
     id: 145,
@@ -1416,7 +1559,8 @@ const PokeList = [
       0: 'Electric',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 3,
   },
   {
     id: 146,
@@ -1427,7 +1571,8 @@ const PokeList = [
       0: 'Fire',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 3,
   },
   {
     id: 147,
@@ -1437,7 +1582,8 @@ const PokeList = [
     type: {
       0: 'Dragon'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 148,
@@ -1447,7 +1593,8 @@ const PokeList = [
     type: {
       0: 'Dragon'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 149,
@@ -1458,7 +1605,8 @@ const PokeList = [
       0: 'Dragon',
       1: 'Flying'
     },
-    got: false
+    got: false,
+    chance: 45,
   },
   {
     id: 150,
@@ -1468,7 +1616,8 @@ const PokeList = [
     type: {
       0: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 3,
   },
   {
     id: 151,
@@ -1478,7 +1627,8 @@ const PokeList = [
     type: {
       0: 'Psychic'
     },
-    got: false
+    got: false,
+    chance: 45,
   }
 ]
 
