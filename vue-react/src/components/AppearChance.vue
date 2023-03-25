@@ -7,7 +7,7 @@
     <button @click="reset" id="reset">Onto the Next!</button>
   </form>
 
-  <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif" class="gif" />
+  <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif"/>
 </template>
 
 <script>
@@ -74,16 +74,17 @@ export default {
       }, 4000)
     },
     attempts: function attempts() {
-      const result = [Math.floor(Math.random() * 300)]
+      const result = [Math.floor(Math.random() * 200)]
       console.log(result)
-      if (result < this.found.chance || result === this.found.chance) {
+      console.log(this.found.chance)
+      if (result <= this.found.chance) {
         console.log('success')
         const gif = document.getElementById('gif')
         gif.remove()
         const div = document.getElementById('foundMon')
         div.insertAdjacentHTML(
           'beforeend',
-          `<img src="/src/assets/sucess pokebal.gif" alt="PokeBall gif with radiating light around it and sparkles" class="gif" />
+          `<img src="/src/assets/sucess pokebal.gif" alt="PokeBall gif with radiating light around it and sparkles"/>
           <h2>You have sucessfully caught ${this.found.name}.</h2>`
         )
         const reset = document.getElementById('reset')
@@ -92,10 +93,12 @@ export default {
         PokeList.remove(this.found.id)
       } else {
         console.log('fail')
+        const gif = document.getElementById('gif')
+        gif.remove()
         const div = document.getElementById('foundMon')
         div.insertAdjacentHTML(
           'beforeend',
-          `<img src="/src/assets/fal pokebal.gif" alt="PokeBall gif witha dark blue cloud behind it and gloomy lines" class="gif" /><h2>You failed to catch ${this.found.name}.</h2>`
+          `<img src="/src/assets/fal pokebal.gif" alt="PokeBall gif witha dark blue cloud behind it and gloomy lines"/><h2>You failed to catch ${this.found.name}.</h2>`
         )
         const reset = document.getElementById('reset')
         reset.style.display = 'flex'
@@ -115,9 +118,7 @@ export default {
 #catch {
   display: none;
 }
-.gif {
-  max-width: 10%;
-  max-height: 10%;
+#gif {
   display: none;
 }
 #reset {
