@@ -28,11 +28,10 @@ export default {
         `<div class="thing">
       <img src="${found.front_sprite}" alt="${found.name}" id="image"></img>
       <h2 id="text">${found.name} has been found!</h2>
-      <runAway />
     </div>`
       )
       const find = document.getElementById('find')
-      find.remove()
+      find.style.display = 'none'
     }
   }
 }
