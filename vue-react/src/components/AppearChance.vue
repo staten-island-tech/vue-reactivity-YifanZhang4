@@ -3,7 +3,7 @@
   <button @click="findRandom" id="find">Explore Tall Grass</button>
   <button @click="runs" id="run">Run Away</button>
   <button @click="catches" id="catch">Catch</button>
-  <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif">
+  <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif" />
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
   components: {},
   name: 'options',
   props: {
-    found: Array
+    found: Element
   },
   data() {
     return {
@@ -29,7 +29,7 @@ export default {
       div.insertAdjacentHTML(
         'beforeend',
         `<div class="thing">
-      <img src="${found.front_sprite}" alt="${found.name}" id="image"></img>
+      <img src="${found.front_sprite}" alt="Sprite of the Pokemon: ${found.name}" id="image"></img>
       <h2 id="text">${found.name} has been found!</h2>
     </div>`
       )
@@ -39,7 +39,7 @@ export default {
       run.style.display = 'flex'
       const catches = document.getElementById('catch')
       catches.style.display = 'flex'
-      return found 
+      return found
     },
     runs: function runs() {
       console.log('run')
@@ -63,22 +63,27 @@ export default {
       const image = document.getElementById('image')
       image.remove()
       const gif = document.getElementById('gif')
-      gif.style.display = "flex"
-      setTimeout(computed.attempts, 4000)
+      gif.style.display = 'flex'
+      setTimeout(() => {
+        this.attempts
+      }, 4000)
     },
     attempts: function attempts() {
-    const result = [Math.floor(Math.random() * 300)]
-    console.log(result)
-    if (result < this.found.chance || result === this.found.chance) {
-      console.log('success')
-      const div = document.getElementById('foundMon')
-      div.insertAdjacentHTML('beforeend', `<h2>You have sucessfully caught ${this.found.name}.</h2>`)
-      this.found.got = true
-    } else {
-      console.log('fail')
-      const div = document.getElementById('foundMon')
-      div.insertAdjacentHTML('beforeend', `<h2>You failed to catch ${this.found.name}.</h2>`)
-    }
+      const result = [Math.floor(Math.random() * 300)]
+      console.log(result)
+      if (result < this.found.chance || result === this.found.chance) {
+        console.log('success')
+        const div = document.getElementById('foundMon')
+        div.insertAdjacentHTML(
+          'beforeend',
+          `<h2>You have sucessfully caught ${this.found.name}.</h2>`
+        )
+        this.found.got = true
+      } else {
+        console.log('fail')
+        const div = document.getElementById('foundMon')
+        div.insertAdjacentHTML('beforeend', `<h2>You failed to catch ${this.found.name}.</h2>`)
+      }
     }
   }
 }
