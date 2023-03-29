@@ -1,13 +1,10 @@
 <template>
   <div id="foundMon"></div>
-  <form>
-    <button @click="findRandom" id="find">Explore Tall Grass</button>
-    <button @click="runs" id="run">Run Away</button>
-    <button @click="catches" id="catch">Catch</button>
-    <button @click="reset" id="reset">Onto the Next!</button>
-  </form>
-
-  <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif"/>
+  <button @click="findRandom" id="find">Explore Tall Grass</button>
+  <button @click="runs" id="run">Run Away</button>
+  <button @click="catches" id="catch">Catch</button>
+  <button @click="next" id="next" type="button">Onto the Next!</button>
+  <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif" />
 </template>
 
 <script>
@@ -15,12 +12,11 @@ import PokeList from './PokeList.js'
 export default {
   components: {},
   name: 'options',
-  props: {
-  },
+  props: {},
   data() {
     return {
       list: PokeList,
-      found: Array
+      found: null
     }
   },
   computed: {
@@ -31,40 +27,41 @@ export default {
       const div = document.getElementById('foundMon')
       div.insertAdjacentHTML(
         'beforeend',
-        `<div class="thing">
+        `<div class="stuff">
       <img src="${found.front_sprite}" alt="Sprite of the Pokemon: ${found.name}" id="image"></img>
       <h2 id="text">${found.name} has been found!</h2>
     </div>`
       )
       const find = document.getElementById('find')
-      find.remove()
+      find.style.display = 'none'
       const run = document.getElementById('run')
       run.style.display = 'flex'
       const catches = document.getElementById('catch')
       catches.style.display = 'flex'
-      return found
+      this.found = found
+      console.log(this.found)
     },
     runs: function runs() {
       console.log('run')
       const text = document.getElementById('text')
       text.remove()
-      const div = document.getElementById('foundMon')
-      div.insertAdjacentHTML('beforeend', `<h2>You choose to run away.</h2>`)
+      const stuff = document.querySelector('.stuff')
+      stuff.insertAdjacentHTML('beforeend', `<h2>You choose to run away.</h2>`)
       const run = document.getElementById('run')
-      run.remove()
+      run.style.display = 'none'
       const catches = document.getElementById('catch')
-      catches.remove()
-      const reset = document.getElementById('reset')
-      reset.style.display = 'flex'
+      catches.style.display = 'none'
+      const next = document.getElementById('next')
+      next.style.display = 'flex'
     },
     catches: function catches() {
       console.log('catch')
       const text = document.getElementById('text')
       text.remove()
       const catches = document.getElementById('catch')
-      catches.remove()
+      catches.style.display = 'none'
       const run = document.getElementById('run')
-      run.remove()
+      run.style.display = 'none'
       const image = document.getElementById('image')
       image.remove()
       const gif = document.getElementById('gif')
@@ -80,32 +77,37 @@ export default {
       if (result <= this.found.chance) {
         console.log('success')
         const gif = document.getElementById('gif')
-        gif.remove()
+        gif.style.display = 'none'
         const div = document.getElementById('foundMon')
         div.insertAdjacentHTML(
           'beforeend',
-          `<img src="/src/assets/sucess pokebal.gif" alt="PokeBall gif with radiating light around it and sparkles"/>
-          <h2>You have sucessfully caught ${this.found.name}.</h2>`
+          `<div id="success" class="stuff"><img src="/src/assets/sucess pokebal.gif" alt="PokeBall gif with sparkles and a halo"/><h2>You caught ${this.found.name}!</h2>`
         )
-        const reset = document.getElementById('reset')
-        reset.style.display = 'flex'
+        const next = document.getElementById('next')
+        next.style.display = 'flex'
         this.found.got = true
-        PokeList.remove(this.found.id)
+        PokeList.splice(this.found.id)
       } else {
         console.log('fail')
         const gif = document.getElementById('gif')
-        gif.remove()
+        gif.style.display = 'none'
         const div = document.getElementById('foundMon')
         div.insertAdjacentHTML(
           'beforeend',
-          `<img src="/src/assets/fal pokebal.gif" alt="PokeBall gif witha dark blue cloud behind it and gloomy lines"/><h2>You failed to catch ${this.found.name}.</h2>`
+          `<div id="fail" class="stuff"><img src="/src/assets/fal pokebal.gif" alt="PokeBall gif with a dark blue cloud behind it and gloomy lines"/><h2>You failed to catch ${this.found.name}.</h2></div>
+       `
         )
-        const reset = document.getElementById('reset')
-        reset.style.display = 'flex'
+        const next = document.getElementById('next')
+        next.style.display = 'flex'
       }
     },
-    reset: function reset() {
-      document.getElementById('foundMon').reset()
+    next: function next() {
+      const next = document.getElementById('next')
+      next.style.display = 'none'
+      let stuff = document.querySelectorAll('.stuff')
+      stuff.remove()
+      const find = document.getElementById('find')
+      find.style.display = 'flex'
     }
   }
 }
@@ -121,7 +123,7 @@ export default {
 #gif {
   display: none;
 }
-#reset {
+#next {
   display: none;
 }
 </style>
