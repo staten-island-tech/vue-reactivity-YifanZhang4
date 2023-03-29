@@ -62,8 +62,8 @@ export default {
       catches.style.display = 'none'
       const run = document.getElementById('run')
       run.style.display = 'none'
-      const image = document.getElementById('image')
-      image.remove()
+      const stuff = document.querySelector('.stuff')
+      stuff.remove()
       const gif = document.getElementById('gif')
       gif.style.display = 'flex'
       setTimeout(() => {
@@ -104,7 +104,7 @@ export default {
     next: function next() {
       const next = document.getElementById('next')
       next.style.display = 'none'
-      let stuff = document.querySelectorAll('.stuff')
+      let stuff = document.querySelector('.stuff')
       stuff.remove()
       const find = document.getElementById('find')
       find.style.display = 'flex'
