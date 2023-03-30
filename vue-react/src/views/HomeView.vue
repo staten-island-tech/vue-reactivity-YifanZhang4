@@ -1,19 +1,15 @@
-<template>
-  <options />
-</template>
+<template><AppearChance /></template>
 
 <script>
-import options from '../components/AppearChance.vue'
+import AppearChance from '../components/AppearChance.vue'
 export default {
   components: {
-    options
+    AppearChance
   },
   data() {
-    return {
-    }
+    return {}
   }
 }
 </script>
 
-<style>
-</style>
+<style></style>

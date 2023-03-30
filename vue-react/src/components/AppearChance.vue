@@ -1,22 +1,29 @@
 <template>
   <div id="foundMon"></div>
-  <button @click="findRandom" id="find">Explore Tall Grass</button>
-  <button @click="runs" id="run">Run Away</button>
+  <button @click="$emit(findRandom)" id="find">Explore Tall Grass</button>
+  <button @click="test" id="run">Run Away</button>
   <button @click="catches" id="catch">Catch</button>
   <button @click="next" id="next" type="button">Onto the Next!</button>
   <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif" />
+  <div v-if="status != null">{{ status }}</div>
 </template>
 
 <script>
 import PokeList from './PokeList.js'
 export default {
   components: {},
-  name: 'options',
+  name: 'AppearChance',
   props: {},
   data() {
     return {
       list: PokeList,
-      found: null
+      found: null,
+      status: null
+    }
+  },
+  methods: {
+    test: function () {
+      this.status = 'You ran away'
     }
   },
   computed: {
