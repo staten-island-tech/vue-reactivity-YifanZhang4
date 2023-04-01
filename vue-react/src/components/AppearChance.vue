@@ -1,6 +1,7 @@
 <template>
   <div id="foundMon"></div>
-  <EncounteredPokemon />
+  <button @click="$emit(findRandom)" id="find">Explore Tall Grass</button>
+  <button @click="test" id="run">Run Away</button>
   <button @click="catches" id="catch">Catch</button>
   <button @click="next" id="next" type="button">Onto the Next!</button>
   <img src="/src/assets/pokebal.gif" alt="Shaking PokeBall gif" id="gif" />
@@ -8,11 +9,9 @@
 </template>
 
 <script>
-import EncounteredPokemon from './EncounteredPokemon.vue'
 import PokeList from './PokeList.js'
-import RunAway from './RunAway.vue'
 export default {
-  components: { EncounteredPokemon, RunAway },
+  components: {},
   name: 'AppearChance',
   props: {},
   data() {
