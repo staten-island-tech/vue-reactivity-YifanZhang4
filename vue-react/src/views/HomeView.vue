@@ -1,15 +1,15 @@
-<template><AppearChance /></template>
+<template><GetPokemon/></template>
 
 <script>
-import AppearChance from '../components/AppearChance.vue'
+import GetPokemon from '../components/GetPokemon.vue';
+
 export default {
   components: {
-    AppearChance
-  },
+    GetPokemon
+},
   data() {
     return {}
   }
 }
 </script>
 
-<style></style>
