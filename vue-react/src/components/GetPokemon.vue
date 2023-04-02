@@ -50,13 +50,13 @@ export default {
       console.log(this.found.chance)
       if (result <= this.found.chance) {
         console.log('success')
-        this.image = `/src/assets/sucess pokebal.gif`
+        this.image = `/sucess pokebal.gif`
         this.name = `PokeBall gif with sparkles and a halo`
         this.attempt = `You successfuly caught ${this.found.name}!`
         this.found.got = true
       } else {
         console.log('failure')
-        this.image = `/src/assets/fal pokebal.gif`
+        this.image = `/fal pokebal.gif`
         this.name = `PokeBall gif with a dark blue cloud behind it and gloomy lines`
         this.attempt = `${this.found.name} ran away...`
       }
