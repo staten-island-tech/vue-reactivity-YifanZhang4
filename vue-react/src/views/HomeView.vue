@@ -1,5 +1,7 @@
 <template>
-<GetPokemon />
+  <body>
+    <GetPokemon/>
+  </body>
 </template>
 
 <script>
@@ -16,5 +18,7 @@ export default {
 </script>
 
 <style scoped>
-
+body {
+  background-image: url('/background.png');
+}
 </style>

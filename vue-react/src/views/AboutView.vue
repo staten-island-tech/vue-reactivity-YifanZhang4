@@ -11,6 +11,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <template>
@@ -25,11 +26,15 @@ export default {
       :got="pokemon.got"
     />
   </div>
+  <img src="/GOWHITEBOYGO.jpg" alt="Emil Sinclair from Limbus Company dancing on a casino table with maracas">
 </template>
 
 <style scoped>
 .all {
   display: flex;
   flex-flow: row wrap;
+}
+img {
+  width: 55em;
 }
 </style>

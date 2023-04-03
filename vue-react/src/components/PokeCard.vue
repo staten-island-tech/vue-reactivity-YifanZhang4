@@ -70,8 +70,8 @@ export default {
   display: flex;
   flex-direction: column;
   border-radius: 15px;
-  height: 15rem;
-  width: 15rem;
+  height: 17rem;
+  width: 17rem;
   margin: 10px 10px;
   padding: 15px 15px;
   background-color: #f2f2f2;
@@ -85,7 +85,6 @@ h2 {
 .name {
   font-size: var(--h3);
 }
-
 img {
   max-width: 100%;
   max-height: 100%;

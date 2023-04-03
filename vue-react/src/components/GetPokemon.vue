@@ -3,6 +3,7 @@
   <div v-if="meet != null">
     <img :src="image" :alt="name" />
     {{ meet }}
+    {{ have }}
     <button @click="capture">Catch</button>
     <button @click="run">Run Away</button>
   </div>
@@ -36,6 +37,11 @@ export default {
       this.name = `${found.name}`
       this.meet = `You encounter ${found.name}.`
       this.found = found
+      if (found.got === true) {
+        this.have = `You've already caught a ${found.name} before.`
+      } else {
+        this.have = ``
+      }
     },
     run: function () {
       this.meet = null
@@ -69,3 +75,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+img {
+  display: block
+}
+button {
+  display: block;
+  margin: 5px;
+  font-family: 'Silkscreen';
+}
+</style>
