@@ -13,7 +13,7 @@
     <button @click="next">Onto the Next!</button>
   </div>
   <div v-if="attempt != null">
-    <img :src="image" :alt="name" />
+    <img :src="image" :alt="name" id="gif" />
     {{ attempt }}
     <button @click="next">Onto the Next!</button>
   </div>
@@ -78,11 +78,24 @@ export default {
 
 <style scoped>
 img {
-  display: block
+  display: block;
+  position: absolute;
+  bottom: 150%;
+  left: 130%;
+}
+#gif {
+  display: block;
+  position: absolute;
+  bottom: 150%;
+  left: 130%;
+  width: 150px;
 }
 button {
   display: block;
   margin: 5px;
+  /* position: absolute;
+  bottom: 50vh;
+  left: 20vw; */
   font-family: 'Silkscreen';
 }
 </style>

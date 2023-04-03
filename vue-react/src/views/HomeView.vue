@@ -1,6 +1,6 @@
 <template>
   <body>
-    <GetPokemon/>
+    <GetPokemon />
   </body>
 </template>
 
@@ -20,5 +20,9 @@ export default {
 <style scoped>
 body {
   background-image: url('/background.png');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  width: 100vw;
 }
 </style>

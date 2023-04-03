@@ -11,7 +11,6 @@ export default {
     }
   }
 }
-
 </script>
 
 <template>
@@ -26,7 +25,10 @@ export default {
       :got="pokemon.got"
     />
   </div>
-  <img src="/GOWHITEBOYGO.jpg" alt="Emil Sinclair from Limbus Company dancing on a casino table with maracas">
+  <img
+    src="/GOWHITEBOYGO.jpg"
+    alt="Emil Sinclair from Limbus Company dancing on a casino table with maracas"
+  />
 </template>
 
 <style scoped>
@@ -35,6 +37,16 @@ export default {
   flex-flow: row wrap;
 }
 img {
-  width: 55em;
+  width: 80em;
+}
+@media screen and (max-width: 820px) {
+  img {
+    width: 40em;
+  }
+}
+@media screen and (max-width: 390px) {
+  img {
+    width: 10em;
+  }
 }
 </style>

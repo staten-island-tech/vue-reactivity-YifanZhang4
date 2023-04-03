@@ -47,7 +47,7 @@ export default {
     }
   },
   computed: {
-    border: function() {
+    border: function () {
       return 'border: ' + '5px ' + 'solid ' + this.colors[`${this.type[0]}`]
     }
   }
