@@ -1,21 +1,34 @@
 <template>
-  <button v-if="start != null" @click="encounter">Explore Tall Grass</button>
-  <div v-if="meet != null">
-    <img :src="image" :alt="name" />
-    {{ meet }}
-    {{ have }}
-    <button @click="capture">Catch</button>
-    <button @click="run">Run Away</button>
-  </div>
-  <div v-if="leave != null">
-    <img :src="image" :alt="name" />
-    {{ leave }}
-    <button @click="next">Onto the Next!</button>
-  </div>
-  <div v-if="attempt != null">
-    <img :src="image" :alt="name" id="gif" />
-    {{ attempt }}
-    <button @click="next">Onto the Next!</button>
+ 
+  <div id="get"> 
+    <div v-if="start != null">
+      <br>
+      <br>
+      <br>
+      <br>
+      <button @click="encounter" id="start">Explore Tall Grass</button>
+    </div>
+    <div v-if="meet != null">
+      <img :src="image" :alt="name" class="man" />
+      <br />
+      {{ meet }}
+      {{ have }}
+      <button @click="capture">Catch</button>
+      <button @click="run">Run Away</button>
+    </div>
+    <div v-if="leave != null">
+      <img :src="image" :alt="name" class="man" />
+      <br />
+      {{ leave }}
+      <br />
+      <button @click="next">Onto the Next!</button>
+    </div>
+    <div v-if="attempt != null">
+      <img :src="image" :alt="name" id="gif" />
+      {{ attempt }}
+      <button @click="next">Onto the Next!</button>
+      <br />
+    </div>
   </div>
 </template>
 
@@ -77,25 +90,30 @@ export default {
 </script>
 
 <style scoped>
+#get {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#start {
+  display: grid;
+  position: relative;
+}
 img {
-  display: block;
-  position: absolute;
-  bottom: 150%;
-  left: 130%;
+  display: grid;
+  align-self: center;
+}
+.man {
+  width: 110px;
 }
 #gif {
   display: block;
-  position: absolute;
-  bottom: 150%;
-  left: 130%;
-  width: 150px;
+  width: 120px;
 }
 button {
-  display: block;
   margin: 5px;
-  /* position: absolute;
-  bottom: 50vh;
-  left: 20vw; */
+  display: block;
+  text-align: center;
   font-family: 'Silkscreen';
 }
 </style>
