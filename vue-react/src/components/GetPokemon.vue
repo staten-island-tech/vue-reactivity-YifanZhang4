@@ -1,12 +1,11 @@
 <template>
- 
-  <div id="get"> 
+  <div id="get">
     <div v-if="start != null">
-      <br>
-      <br>
-      <br>
-      <br>
-      <button @click="encounter" id="start">Explore Tall Grass</button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <button @click="encounter">Explore Tall Grass</button>
     </div>
     <div v-if="meet != null">
       <img :src="image" :alt="name" class="man" />
@@ -91,13 +90,9 @@ export default {
 
 <style scoped>
 #get {
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
   padding: 10px;
-}
-#start {
-  display: grid;
-  position: relative;
 }
 img {
   display: grid;

@@ -19,13 +19,10 @@ export default {
 
 <style scoped>
 body {
-  background-image: url('/bacground.png');
-  background-repeat: no-repeat;
-  background-size: 60rem;
+  background-image: url('bacground.png');
+  height: 100%;
   background-position: center;
-  background-attachment: fixed;
-  width: 80vw;
-  margin: auto;
-  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
